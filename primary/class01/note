@@ -1,1 +1,21 @@
+Bit operations, what is an algorithm, introduction to bit operations and simple sorting
 
+content:
+
+Explain binary and bit operations
+
+Introduce what is an algorithm
+
+Explain bubbling, selection, insertion sort
+
+topic:
+
+Implements printing an integer's binary
+
+Given an argument N, return the result of 1!+2!+3!+4!+…+N!
+
+implement bubble sort
+
+Implement selection sort
+
+Implement insertion sort
