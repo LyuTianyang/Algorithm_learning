@@ -1,0 +1,31 @@
+Introduction to dichotomy, an introduction to time complexity, dynamic arrays, hash tables, and ordered tables
+
+content:
+
+dichotomy
+
+Use dichotomy to solve different problems
+
+time complexity
+
+dynamic array
+
+pass by value, pass by reference
+
+hash table
+
+ordered list
+
+tasks:
+
+find num in sorted array
+
+Find the leftmost position >=num in an ordered array
+
+Find the rightmost position <= num in a sorted array
+
+local minima problem
+
+Code explanation for the use of hash tables
+
+Code explanation for the use of ordered tables
