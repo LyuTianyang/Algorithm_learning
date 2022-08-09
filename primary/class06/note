@@ -1,0 +1,31 @@
+Comparator, Priority Queue, Binary Tree
+
+Comparators
+
+priority queue
+
+Basic traversal of binary tree
+
+Recursive routines for binary trees
+
+topic:
+
+Added a linked list title
+Merge multiple sorted linked lists
+Leetcode title, https://leetcode.com/problems/merge-k-sorted-lists
+
+Determine whether two trees have the same structure
+Leetcode title, https://leetcode.com/problems/same-tree
+
+Determine if a tree is a mirror tree
+Leetcode title, https://leetcode.com/problems/symmetric-tree
+
+Returns the maximum depth of a tree
+Leetcode question, https://leetcode.com/problems/maximum-depth-of-binary-tree
+
+Rebuild a tree with preorder and inorder arrays
+Leetcode original title, https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+
+Demonstrate the use of comparators with code
+
+Code implementation of preorder, inorder, and postorder traversal of binary tree, introduction of recursive order
