@@ -1,0 +1,19 @@
+Problems of binary trees
+
+Further explain the binary tree topic, to get familiar with the binary tree
+
+topic:
+
+A binary tree is traversed layer by layer and nodes are collected
+Leetcode original question, https://leetcode.com/problems/binary-tree-level-order-traversal-ii
+
+Determine whether it is a balanced search binary tree
+Leetcode original title, https://leetcode.com/problems/balanced-binary-tree
+
+Can a path sum be formed on a binary tree?
+Leetcode original question, https://leetcode.com/problems/path-sum
+
+Collect all qualified paths on a binary tree and
+Leetcode original question, https://leetcode.com/problems/path-sum-ii
+
+Determine if a binary tree is a search binary tree
