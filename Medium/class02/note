@@ -1,0 +1,35 @@
+XOR operation, further understanding of the importance of logarithms
+
+content:
+
+The nature of the XOR operation
+
+The problem of XOR operation
+
+topic:
+
+Swap the values of two numbers without an extra variable
+
+Swap the values of two numbers in an array without an extra variable
+
+How to find and print a number in an array that appears an odd number of times, and all other numbers appear an even number of times
+
+How to extract the rightmost 1 from a number of type int in binary
+
+There are two kinds of numbers in an array that appear odd number of times, other numbers appear even number of times, how to find and print these two kinds of numbers
+
+In an array, a number appears K times, and all other numbers appear M times,
+Given M > 1, K < M, find the number that occurs K times
+Requires additional space complexity O(1), time complexity O(N)
+
+The AND operator is represented by the symbol "&", and its usage rules are as follows:
+If both operands are 1, the result is 1, otherwise the result is 0
+
+The OR operator is represented by the symbol "|", and its operation rules are as follows:
+As long as one of the two bits is 1, the result is 1, otherwise it is 0
+
+The NOT operator is represented by the symbol "~", and its operation rules are as follows:
+If the bit is 0, the result is 1, if the bit is 1, the result is 0
+
+The XOR operator is represented by the symbol "^", and its operation rule is:
+If the bits of the two operands are the same, the result is 0, and if they are different, the result is 1.
