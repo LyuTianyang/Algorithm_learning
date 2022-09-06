@@ -1,1 +1,35 @@
+Use and performance of single and double linked lists, stacks and queues, recursion and Master formulas, hash tables and ordered lists
 
+content:
+
+Singly linked list, double linked list
+
+stack, queue
+
+physical substance of recursion
+
+Master formula for evaluating recursion complexity
+
+Hash table usage and performance
+
+Ordered table usage and performance
+
+topic:
+
+Reverse singly linked list, reverse double linked list
+
+Deletes all nodes of the specified value in the linked list
+
+Implement stacks and queues with double linked lists
+
+Implement stacks and queues with circular arrays
+
+Implement stack with getMin function
+
+Two stacks implement queues
+
+Two queue implementation stack
+
+Use recursive behavior to get the maximum value in an array and use the master formula to estimate the time complexity
+
+Code display for hash table and sorted table usage
