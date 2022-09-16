@@ -1,0 +1,25 @@
+Merge sort interview questions, quick sort
+
+Another merge sort interview question
+
+Dutch flag question
+
+Quicksort 1.0
+
+Quicksort 2.0
+
+Quicksort 3.0
+
+topic:
+
+Given an array arr, two integers lower and upper,
+Returns the cumulative sum of how many subarrays in arr are in the range [lower, upper]
+Leetcode questions: https://leetcode.com/problems/count-of-range-sum/
+
+Realization of the Dutch flag problem
+
+Implementation of quicksort from 1.0 to 3.0
+
+Recursive and non-recursive implementations of quicksort
+
+Code attachment, code implementation of doubly linked list for quick sorting
