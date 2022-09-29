@@ -1,0 +1,20 @@
+Comparator, heap structure, heap sort
+
+Comparators
+
+heap structure
+
+heap sort
+
+Two ways to build a large root heap, from top to bottom, from bottom to top, and their complexity analysis
+
+topic:
+
+Code display used by the comparator
+
+Implementation of the heap structure
+
+Implementation of Heap Sort
+
+An almost ordered array is known. Almost ordered means that if the array is in order, each element must move no more than k
+k is relatively small relative to the length of the array. Please choose an appropriate sorting strategy to sort this array.
