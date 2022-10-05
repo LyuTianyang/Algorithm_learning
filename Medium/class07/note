@@ -1,0 +1,61 @@
+Heap-related interview questions, strengthening the heap structure
+
+Line segment maximum coincidence problem
+
+Enhanced heap implementation
+
+topic:
+
+Given a number of line segments, each with two numbers [start, end],
+Indicates the start position and end position of the line segment, both left and right are closed intervals
+Regulation:
+1) The start and end positions of the line segments must be integer values
+2) The length of the overlapping area of the line segments must be >= 1
+Returns the most overlapping area of line segments, including several line segments
+
+Strengthen the implementation of heap, pay attention to analysis
+
+Do a heap-enhancing problem, given an array of integers, int[] arr; and an array of booleans, boolean[] op
+The two arrays must be the same length, assuming the length is N, arr[i] represents the customer number, and op[i] represents the customer operation
+arr= [3,3,1,2,1,2,5…
+op = [T,T,T,T,F,T,F…
+In turn means:
+3 The user purchased an item
+3 The user purchased an item
+1 user purchased an item
+2 The user purchased an item
+1 user returned an item
+2 The user purchased an item
+5 A user has returned an item…
+A pair of arr[i] and op[i] represents an event:
+The user ID is arr[i], and op[i] == T means that the user purchased a product
+op[i] == F means the user has returned an item
+Now that you are the person in charge of the e-commerce platform, you want to
+Awards are given to the top K users with the most purchases.
+So after each event, you need a list of winners (winners).
+Rules of the winning system:
+1. If the number of items purchased by a user is 0, but a return event occurs again,
+     Then the event is considered invalid, and the list of winners is consistent with the previous event. In the example, the 5 users
+2. When a user purchases an item, the number of items purchased is +1, and a return event occurs, and the number of items purchased is -1
+3. At most K users will win each time, and K is also the incoming parameter
+      If according to all the rules, the number of winners is indeed not enough K, then the result will be output in the case of not enough
+4. The winning system is divided into winning area and candidate area. As long as the number of purchases > 0 by any user,
+      must be in one of these two areas
+5. The top K users with the largest number of purchases will enter the winning area.
+      If the winning area does not reach K users at the beginning, the new users will directly enter the winning area
+6. If the number of purchases is not enough to enter the winning area, enter the candidate area
+7. If the users with the most purchases in the candidate area are enough to enter the winning area,
+     The user will replace the user with the least number of purchases in the winning area (more than can be replaced),
+     If there are multiple users with the least number of purchases in the winning area, replace the user who entered the winning area first
+     If there are multiple users with the most purchases in the candidate area, the opportunity will be given to the user who enters the candidate area first
+8. The candidate area and the winning area are two sets of time.
+     Because the user will only be in one of the areas, there will only be time in one area, and the other will not
+     For users who come out of the winning area and enter the candidate area, the time in the winning area will be deleted.
+     The time to enter the candidate area is the time of the current event (which can be understood as i in arr[i] and op[i])
+     For users who come out of the candidate area and enter the winning area, the time in the candidate area will be deleted.
+     The time to enter the winning area is the time of the current event (which can be understood as i in arr[i] and op[i])
+9. If a user's purchase number == 0, he leaves no matter which area he is in, and the area time is deleted.
+     Leaving means leaving completely, and the user will not be found in any area
+     If the user purchases again next time, the number of purchases > 0 will be generated,
+     It will return to an area again according to the previous rules, and the time to enter the area will be re-recorded
+Please traverse the arr array and op array, traverse each step and output a list of winners
