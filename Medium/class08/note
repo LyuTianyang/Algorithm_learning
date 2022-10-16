@@ -1,19 +1,17 @@
-前缀树、不基于比较的排序（计数排序、基数排序）、排序算法的稳定性
+Prefix trees, non-comparison-based sorting (counting sort, radix sort), stability of sorting algorithms
 
-内容：
+prefix tree
 
-前缀树
+count sort
 
-计数排序
+radix sort
 
-基数排序
+Stability of Sorting Algorithms
 
-排序算法的稳定性
+topic:
 
-题目：
+Prefix tree implementation
 
-前缀树实现
+count sort
 
-计数排序
-
-基数排序
+radix sort
