@@ -1,0 +1,31 @@
+Summary of sorting algorithms, linked lists and related interview questions
+
+Summary of Sorting Algorithms
+
+Common pits in sorting algorithms
+
+Common Improvements to Sorting in Engineering
+
+Common Tips for Chain Surface Test Questions
+
+topic:
+
+Enter the head node of the linked list, the odd length returns the midpoint, and the even length returns the upper midpoint
+Enter the head node of the linked list, the odd length returns the midpoint, and the even length returns the lower midpoint
+Enter the head node of the linked list, the odd-numbered length returns the one before the midpoint, and the even-numbered length returns the one before the upper midpoint
+Enter the head node of the linked list, the odd-numbered length returns the one before the midpoint, and the even-numbered length returns the one before the lower midpoint
+
+Given the head node head of a singly linked list, please determine whether the linked list is a palindrome
+
+Given a head node head of a singly linked list, given an integer n, divide the linked list into left < n, middle == n, right > n according to n
+
+A special singly linked list node class is described as follows
+class Node {
+int value;
+Node next;
+Node rand;
+Node(int val) { value = val; }
+}
+The rand pointer is a newly added pointer in the singly linked list node structure, rand may point to any node in the linked list, or it may point to null
+Given a head node head of an acyclic singly linked list consisting of Node node types, please implement a function to complete the replication of the linked list
+Returns the head node of the copied new linked list, requiring time complexity O(N) and additional space complexity O(1)
