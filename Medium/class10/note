@@ -1,0 +1,19 @@
+Linked list related interview questions (continued), common traversal of binary trees
+
+The intersection node series problem of singly linked list
+
+A seemingly efficient but actually funny way to delete nodes
+
+Inorder, preorder, postorder traversal of binary tree
+
+topic:
+
+Given two singly linked lists that may or may not be cyclic, head nodes head1 and head2
+Please implement a function that, if two linked lists intersect, return the first node that intersects. Returns null if disjoint
+It is required that if the sum of the lengths of the two linked lists is N, the time complexity should reach O(N), and the additional space complexity should reach O(1)
+
+Can you delete this point on the linked list by not giving the head node of the singly linked list, but only the node you want to delete?
+
+Recursive traversal and recursive order of binary tree preorder, inorder, and postorder
+
+Non-recursive traversal of binary tree preorder, inorder, and postorder
